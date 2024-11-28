@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hunter's Website</title>
+  <style>
+    #image {
+      display: none;
+      margin-top: 20px;
+      width: 100%;
+      
+    }
+
+    #body {
+      width: 100vw;
+    }
+  </style>
+</head>
+<body>
+  <button onclick="showImage()">Load Site</button>
+  <img id="image" src="img.jpg" alt="Image">
+
+  <script>
+    function showImage() {
+      document.getElementById('image').style.display = 'block';
+    }
+  </script>
+</body>
+</html>
